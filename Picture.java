@@ -2,8 +2,8 @@
 /**
  * Draw a pretty picture composed of shape objects on a canvas
  * 
- * @author: (Your name)
- * @version: (Date)
+ * @author: Jaden Torres
+ * @version: 1/04
  * 
  */
 import java.io.File;
