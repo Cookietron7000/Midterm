@@ -16,11 +16,18 @@ public class Picture {
 
         // Set the title and background for the picture
         pic.setTitle("My Picture");
-        pic.setBackgroundColor("white");
+        pic.setBackgroundColor("blue");
 
         // Draw my picture
         Circle c = new Circle();
         c.makeVisible();
+        Triangle t = new Triangle();
+        t.makeVisible();
+        Arc a = new Arc();
+        a.makeVisible();
+        Rect r = new Rect();
+        r.makeVisible();
+        
 
         // Get the filename to save to from the command line arguments, defaulting to
         // MyPicture.png if no argument is given
